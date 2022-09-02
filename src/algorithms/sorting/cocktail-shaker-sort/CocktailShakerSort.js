@@ -34,6 +34,7 @@ export default class CocktailShakerSort extends Sort {
       if (swapped === false) {
         break;
       }
+      
       // Reset the swapped flag so that it can be used in the next stage
       swapped = false;
 
