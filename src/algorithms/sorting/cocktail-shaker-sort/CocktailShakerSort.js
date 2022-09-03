@@ -48,6 +48,7 @@ export default class CocktailShakerSort extends Sort {
           swapped = true;
         }
       }
+      
       // Move the start point forward by one,
       // because the item at the start point is already in its correct position.
       start += 1;
