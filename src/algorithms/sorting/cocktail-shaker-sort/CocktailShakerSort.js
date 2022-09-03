@@ -34,7 +34,7 @@ export default class CocktailShakerSort extends Sort {
       if (swapped === false) {
         break;
       }
-      
+
       // Reset the swapped flag so that it can be used in the next stage
       swapped = false;
 
@@ -52,7 +52,7 @@ export default class CocktailShakerSort extends Sort {
       // Move the start point forward by one,
       // because the item at the start point is already in its correct position.
       start += 1;
-      
+
     }
     return array;
   }
